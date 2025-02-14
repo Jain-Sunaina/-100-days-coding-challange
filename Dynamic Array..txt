@@ -1,0 +1,99 @@
+#include <assert.h>
+#include <ctype.h>
+#include <limits.h>
+#include <math.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+char* readline();
+char* ltrim(char*);
+char* rtrim(char*);
+char** split_string(char*);
+int parse_int(char*);
+
+int* dynamicArray(int n, int queries_rows, int queries_columns, int** queries, int* result_count) {
+    // Initialize the 2D array
+    int** arr = malloc(n * sizeof(int*));
+    int* sizes = malloc(n * sizeof(int)); // To keep track of sizes of each sub-array
+    for (int i = 0; i < n; i++) {
+        arr[i] = NULL; // Start with NULL pointers
+        sizes[i] = 0;  // Initialize sizes to 0
+    }
+
+    int lastAnswer = 0;
+    int* answers = malloc(queries_rows * sizeof(int));
+    *result_count = 0; // Initialize result count
+
+    for (int i = 0; i < queries_rows; i++) {
+        int queryType = queries[i][0];
+        int x = queries[i][1];
+        int y = queries[i][2];
+
+        int idx = (x + lastAnswer) % n;
+
+        if (queryType == 1) {
+            // Append y to arr[idx]
+            arr[idx] = realloc(arr[idx], (sizes[idx] + 1) * sizeof(int)); // Resize the array
+            arr[idx][sizes[idx]] = y; // Add the new element
+            sizes[idx]++; // Increment the size of the array
+        } else if (queryType == 2) {
+            // Set lastAnswer = arr[idx][y % sizes[idx]]
+            lastAnswer = arr[idx][y % sizes[idx]];
+            answers[*result_count] = lastAnswer; // Store the result
+            (*result_count)++;
+        }
+    }
+
+    // Free the allocated memory for arr and sizes
+    for (int i = 0; i < n; i++) {
+        free(arr[i]);
+    }
+    free(arr);
+    free(sizes);
+
+    return answers; // Return the results of type 2 queries
+}
+
+int main() {
+    FILE* fptr = fopen(getenv("OUTPUT_PATH"), "w");
+
+    char** first_multiple_input = split_string(rtrim(readline()));
+
+    int n = parse_int(*(first_multiple_input + 0));
+    int q = parse_int(*(first_multiple_input + 1));
+
+    int** queries = malloc(q * sizeof(int*));
+
+    for (int i = 0; i < q; i++) {
+        *(queries + i) = malloc(3 * (sizeof(int)));
+
+        char** queries_item_temp = split_string(rtrim(readline()));
+
+        for (int j = 0; j < 3; j++) {
+            int queries_item = parse_int(*(queries_item_temp + j));
+            *(*(queries + i) + j) = queries_item;
+        }
+    }
+
+    int result_count;
+    int* result = dynamicArray(n, q, 3, queries, &result_count);
+
+    for (int i = 0; i < result_count; i++) {
+        fprintf(fptr, "%d", *(result + i));
+        if (i != result_count - 1) {
+            fprintf(fptr, "\n");
+        }
+    }
+
+    fprintf(fptr, "\n");
+
+    fclose(fptr);
+
+    return 0;
+}
+
+// The rest of the helper functions remain unchanged
