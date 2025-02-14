@@ -11,3 +11,5 @@ Problem Statement: each element of a list or array should be printed on a new li
 📌 Day 3: 2D Array DS
 
 Problem Statement:Given a 6 x 6 2D array,arr, an hourglass is a subset of values with indices falling in the following pattern
+
+📌 Day 4: Dyanmic Array Problem Statement:Declare a 2-dimensional array, arr, with n empty arrays, all zero-indexed. Declare an integer,last Answer, and initialize it to 0
