@@ -18,6 +18,6 @@ Problem Statement:Given a 6 x 6 2D array,arr, an hourglass is a subset of values
 
 Problem statement :A left rotation operation on a circular array shifts each of the array's elements unit to the left. The elements 1 that fall off the left end reappear at the right end. Given an integer d , rotate the array that many steps to the left and return the result.
 
-📌 Day 6:String Similarity
+📌 Day 6: String Similarity
 
 Problem Statement:For two strings A and B, we define the similarity of the strings to be the length of the longest prefix common to both strings.
