@@ -20,4 +20,8 @@ Problem statement :A left rotation operation on a circular array shifts each of 
 
 📌 Day 6: String Similarity
 
-Problem Statement:For two strings A and B, we define the similarity of the strings to be the length of the longest prefix common to both strings.
+Problem Statement: For two strings A and B, we define the similarity of the strings to be the length of the longest prefix common to both strings.
+
+📌 Day 7: Digit Frequency
+
+Problem Statement: Given a string, s, consisting of alphabets and digits, find the frequency of each digit in the given string.
