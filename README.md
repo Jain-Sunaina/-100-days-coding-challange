@@ -25,3 +25,7 @@ Problem Statement: For two strings A and B, we define the similarity of the stri
 📌 Day 7: Digit Frequency
 
 Problem Statement: Given a string, s, consisting of alphabets and digits, find the frequency of each digit in the given string.
+
+📌 Day 8: Calculate the Nth term
+
+Problem Statement: There is a series, S, where the next term is the sum of pervious three terms. Given the first three terms of the series,a ,b ,c and  respectively, you have to output the nth term of the series using recursion.
