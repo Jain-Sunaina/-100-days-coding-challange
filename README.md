@@ -29,3 +29,7 @@ Problem Statement: Given a string, s, consisting of alphabets and digits, find t
 📌 Day 8: Calculate the Nth term
 
 Problem Statement: There is a series, S, where the next term is the sum of pervious three terms. Given the first three terms of the series,a ,b ,c and  respectively, you have to output the nth term of the series using recursion.
+
+📌 Day 9: Power Calculation
+
+Problem Statement: Help Shashank in calculating the value of S, which is given as follows. Since the value of S can be very large, he only wants the last 2 digits of S.
