@@ -43,9 +43,13 @@ There will be q queries consisting of A, B, k and . For each query, return YES i
 
 Problem Statement: Given an array, of size n, reverse it.
 
-Day 12: Students Marks Sum
+📌 Day 12: Students Marks Sum
 
 Problem Statement: You are given an array of integers, marks, denoting the marks scored by students in a class.
 -> The alternating elements marks0, marks2, marks4 and so on denote the marks of boys.
 -> Similarly, marks1, marks3, marks5 and so on denote the marks of girls.
 The array name, marks, works as a pointer which stores the base address of that array. In other words, marks contains the address where marks0 is stored in the memory.
+
+📌 Day 13: Bitwise Operators
+
+Problem Statement: In this challenge, you will use logical bitwise operators. All data is stored in its binary representation. The logical operators, and C language, use 1 to represent true and 0 to represent false. The logical operators compare bits in two numbers and return true or false, 0 or 1, for each bit compared.
