@@ -68,3 +68,10 @@ Problem Statement: Given a time in 12-hour AM/PM format, convert it to military 
 
 Note: - 12:00:00AM on a 12-hour clock is 00:00:00 on a 24-hour clock.
 - 12:00:00PM on a 12-hour clock is 12:00:00 on a 24-hour clock.
+
+📌 Day 17: Grading Students
+
+Problem Statement: HackerLand University has the following grading policy:
+
+Every student receives a grade in the inclusive range from 0 to 100.
+Any grade less than 40 is a failing grade.
