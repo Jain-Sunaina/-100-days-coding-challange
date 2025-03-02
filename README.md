@@ -79,3 +79,8 @@ Any grade less than 40 is a failing grade.
 📌 Day 18: Diagonal Difference
 
 Problem Statement: Given a square matrix, calculate the absolute difference between the sums of its diagonals.
+
+📌 Day 19: Plus Minus 
+
+Problem Statement: Given an array of integers, calculate the ratios of its elements that are positive, negetive, and zero. Print the decimal value of each fraction on a new 
+line with 6 places after the decimal.
