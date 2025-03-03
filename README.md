@@ -84,3 +84,13 @@ Problem Statement: Given a square matrix, calculate the absolute difference betw
 
 Problem Statement: Given an array of integers, calculate the ratios of its elements that are positive, negetive, and zero. Print the decimal value of each fraction on a new 
 line with 6 places after the decimal.
+
+📌 Day 20: Recursive Digit Sum 
+
+Problem Statement: We define super digit of an integer x using the following rules:
+
+Given an integer, we need to find the super digit of the integer.
+
+If x has only 1 digit, then its super digit is x.
+Otherwise, the super digit of x is equal to the super digit of the sum of the digits of x.
+
