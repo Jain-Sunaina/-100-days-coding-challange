@@ -91,9 +91,14 @@ Problem Statement: We define super digit of an integer x using the following rul
 
 Given an integer, we need to find the super digit of the integer.
 
-If x has only 1 digit, then its super digit is x.
-Otherwise, the super digit of x is equal to the super digit of the sum of the digits of x.
-
 📌 Day 21: Solve Me First
 
 Problem Statement: Complete the function solveMeFirst to compute the sum of two integers.
+
+📌 Day 22: Cats and a Mouse
+
+Problem Statement: Two cats and a mouse are at various positions on a line. You will be given their starting positions. Your task is to determine which cat will reach the 
+mouse first, assuming the mouse does not move and the cats travel at equal speed. If the cats arrive at the same time, the mouse will be allowed to move and it will escape
+while they fight.
+
+
