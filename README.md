@@ -100,3 +100,9 @@ Problem Statement: Complete the function solveMeFirst to compute the sum of two 
 Problem Statement: Two cats and a mouse are at various positions on a line. You will be given their starting positions. Your task is to determine which cat will reach the 
 mouse first, assuming the mouse does not move and the cats travel at equal speed. If the cats arrive at the same time, the mouse will be allowed to move and it will escape
 while they fight.
+
+📌 Day 23: Birthday Cake Candles
+
+Problem Statement: You are in charge of the cake for a child's birthday. It will have one candle for each year of their total age. They will only be able to blow out the 
+tallest of the candles. Your task is to count how many candles are the tallest.
+
