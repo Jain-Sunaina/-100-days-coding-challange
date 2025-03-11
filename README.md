@@ -100,11 +100,3 @@ Problem Statement: Complete the function solveMeFirst to compute the sum of two 
 Problem Statement: Two cats and a mouse are at various positions on a line. You will be given their starting positions. Your task is to determine which cat will reach the 
 mouse first, assuming the mouse does not move and the cats travel at equal speed. If the cats arrive at the same time, the mouse will be allowed to move and it will escape
 while they fight.
-
-📌 Day 23: Check if a Number is Even or Odd and Print the Result
-
-Problem Statement: Write a Java program to check if a number is even or odd and print the result.
-
-📌 Day 23: Calculate Income Tax Based on Income Slabs
-
-Problem Statement: Write a Java program to calculate income tax based on income slabs.
