@@ -119,3 +119,7 @@ A mountain is a sequence of consecutive steps above sea level, starting with a s
 A valley is a sequence of consecutive steps below sea level, starting with a step down from sea level and ending with a step up to sea level.
 Given the sequence of up and down steps during a hike, find and print the number of valleys walked through.
 
+📌 Day 25: Electronics Shop
+
+Problem Statement: A person wants to determine the most expensive computer keyboard and USB drive that can be purchased with a give budget. Given price lists for keyboards
+and USB drives and a budget, find the cost to buy them. If it is not possible to buy both items, return -1.
