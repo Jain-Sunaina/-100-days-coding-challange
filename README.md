@@ -123,3 +123,10 @@ Given the sequence of up and down steps during a hike, find and print the number
 
 Problem Statement: A person wants to determine the most expensive computer keyboard and USB drive that can be purchased with a give budget. Given price lists for keyboards
 and USB drives and a budget, find the cost to buy them. If it is not possible to buy both items, return -1.
+
+📌 Day 25: Angry Professor
+
+Problem Statement: A Discrete Mathematics professor has a class of students. Frustrated with their lack of discipline, the professor decides to cancel class if fewer than some number of students are present when class starts. Arrival times go from on time (arrivalTime<=0) to arrived late (arrivalTime>0).
+
+Given the arrival time of each student and a threshhold number of attendees, determine if the class is cancelled.
+
