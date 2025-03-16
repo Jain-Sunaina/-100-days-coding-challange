@@ -126,7 +126,16 @@ and USB drives and a budget, find the cost to buy them. If it is not possible to
 
 📌 Day 25: Angry Professor
 
-Problem Statement: A Discrete Mathematics professor has a class of students. Frustrated with their lack of discipline, the professor decides to cancel class if fewer than some number of students are present when class starts. Arrival times go from on time (arrivalTime<=0) to arrived late (arrivalTime>0).
+Problem Statement: A Discrete Mathematics professor has a class of students. Frustrated with their lack of discipline, the professor decides to cancel class if fewer than 
+some number of students are present when class starts. Arrival times go from on time (arrivalTime<=0) to arrived late (arrivalTime>0).
 
 Given the arrival time of each student and a threshhold number of attendees, determine if the class is cancelled.
+
+📌 Day 26: Circular Array Rotation
+
+Problem Statement: John Watson knows of an operation called a right circular rotation on an array of integers. One rotation operation moves the last array element to the 
+first position and shifts all remaining elements right one. To test Sherlock's abilities, Watson provides Sherlock with an array of integers. Sherlock is to perform the 
+rotation operation a number of times then determine the value of the element at a given position.
+
+For each array, perform a number of right circular rotations and return the values of the elements at the given indices.
 
