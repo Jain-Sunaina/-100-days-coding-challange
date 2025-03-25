@@ -159,4 +159,10 @@ Problem Statement: You have an empty sequence, and you will be given N queries. 
 2    -Delete the element present at the top of the stack.
 3    -Print the maximum element in the stack.
 
+📌 Day 30: Simple Text Editor
 
+Problem Statement: Implement a simple text editor. The editor initially contains an empty string, S. Perform Q operations of the following 4 types:
+1. append(W)- Append string W to the end of S.
+2. delete(k)- Delete the last k characters of S.
+3. print(k)- Print the kth character of S.
+4. undo()- Undo the last (not previously undone) operation of type 1 or 2, reverting S to the state it was in prior to that operation.
