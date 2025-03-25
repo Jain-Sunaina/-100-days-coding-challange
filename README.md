@@ -150,3 +150,13 @@ than or equal to m dollars, after which every game will cost m dollars. How many
 📌 Day 28: Extra Long Factorials
 
 Problem Statement: Calculate and print the factorial of a given integer.
+
+📌 Day 29: Maximum Element
+
+Problem Statement: You have an empty sequence, and you will be given N queries. Each query is one of these three types:
+
+1 x  -Push the element x into the stack.
+2    -Delete the element present at the top of the stack.
+3    -Print the maximum element in the stack.
+
+
