@@ -1,4 +1,5 @@
-Welcome to my 100 Days of Coding Challenge! This repository documents my journey of mastering Data Structures & Algorithms (DSA) in C. Each day, I will solve a problem, optimize my approach, and improve my coding skills.
+Welcome to my 100 Days of Coding Challenge! This repository documents my journey of mastering Data Structures & Algorithms (DSA) in C. Each day, I will solve a problem,
+optimize my approach, and improve my coding skills.
 
 📌 Day 1: Arrays – Reversing an Array
 
@@ -16,7 +17,8 @@ Problem Statement:Given a 6 x 6 2D array,arr, an hourglass is a subset of values
 
 📌 Day 5: Left Rotation
 
-Problem statement :A left rotation operation on a circular array shifts each of the array's elements unit to the left. The elements 1 that fall off the left end reappear at the right end. Given an integer d , rotate the array that many steps to the left and return the result.
+Problem statement :A left rotation operation on a circular array shifts each of the array's elements unit to the left. The elements 1 that fall off the left end reappear at
+the right end. Given an integer d , rotate the array that many steps to the left and return the result.
 
 📌 Day 6: String Similarity
 
@@ -28,7 +30,8 @@ Problem Statement: Given a string, s, consisting of alphabets and digits, find t
 
 📌 Day 8: Calculate the Nth term
 
-Problem Statement: There is a series, S, where the next term is the sum of pervious three terms. Given the first three terms of the series,a ,b ,c and  respectively, you have to output the nth term of the series using recursion.
+Problem Statement: There is a series, S, where the next term is the sum of pervious three terms. Given the first three terms of the series,a ,b ,c and  respectively, you 
+have to output the nth term of the series using recursion.
 
 📌 Day 9: Power Calculation
 
@@ -36,7 +39,8 @@ Problem Statement: Help Shashank in calculating the value of S, which is given a
 
 📌 Day 10: Permuting Two Arrays
 
-Problem Statement: There are two n-element arrays of integers A, B and .Permute them into some A' and B' such that the relation A'[i] + B'[i] >=k holds for all i where 0<=i<n.
+Problem Statement: There are two n-element arrays of integers A, B and .Permute them into some A' and B' such that the relation A'[i] + B'[i] >=k holds for all i where
+0<=i<n.
 There will be q queries consisting of A, B, k and . For each query, return YES if some permutation A', B' satisfying the relation exists. Otherwise, return NO.
 
 📌 Day 11: Array Reversal
@@ -52,15 +56,18 @@ The array name, marks, works as a pointer which stores the base address of that 
 
 📌 Day 13: Bitwise Operators
 
-Problem Statement: In this challenge, you will use logical bitwise operators. All data is stored in its binary representation. The logical operators, and C language, use 1 to represent true and 0 to represent false. The logical operators compare bits in two numbers and return true or false, 0 or 1, for each bit compared.
+Problem Statement: In this challenge, you will use logical bitwise operators. All data is stored in its binary representation. The logical operators, and C language, use 1 
+to represent true and 0 to represent false. The logical operators compare bits in two numbers and return true or false, 0 or 1, for each bit compared.
 
 📌 Day 14: Array Manipulation
 
-Problem Statement: Starting with a 1-indexed array of zeros and a list of operations, for each operation add a value to each array element between two given indices, inclusive. Once all operations have been performed, return the maximum value in the array.
+Problem Statement: Starting with a 1-indexed array of zeros and a list of operations, for each operation add a value to each array element between two given indices,
+inclusive. Once all operations have been performed, return the maximum value in the array.
 
 📌 Day 15: Mini-Max Sum
 
-Problem Statement: Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. Then print the respective minimum and maximum values as a single line of two space-separated long integers.
+Problem Statement: Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. Then print the 
+respective minimum and maximum values as a single line of two space-separated long integers.
 
 📌 Day 16: Time Conversion
 
@@ -166,3 +173,11 @@ Problem Statement: Implement a simple text editor. The editor initially contains
 2. delete(k)- Delete the last k characters of S.
 3. print(k)- Print the kth character of S.
 4. undo()- Undo the last (not previously undone) operation of type 1 or 2, reverting S to the state it was in prior to that operation.
+
+📌 Day 31: Equal Stacks
+
+Problem Statement: You have three stacks of cylinders where each cylinder has the same diameter, but they may vary in height. You can change the height of a stack by 
+removing and discarding its topmost cylinder any number of times.
+
+Find the maximum possible height of the stacks such that all of the stacks are exactly the same height. This means you must remove zero or more cylinders from the top of 
+zero or more of the three stacks until they are all the same height, then return the height.
