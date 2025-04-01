@@ -181,3 +181,11 @@ removing and discarding its topmost cylinder any number of times.
 
 Find the maximum possible height of the stacks such that all of the stacks are exactly the same height. This means you must remove zero or more cylinders from the top of 
 zero or more of the three stacks until they are all the same height, then return the height.
+
+📌 Day 32: Largest Rectangle
+
+Problem Statement: Skyline Real Estate Developers is planning to demolish a number of old, unoccupied buildings and construct a shopping mall in their place. Your task is
+to find the largest solid area in which the mall can be constructed.
+
+
+
