@@ -194,3 +194,8 @@ Problem Statement: A bracket is considered to be any one of the following charac
 Two brackets are considered to be a matched pair if the an opening bracket (i.e., (, [, or {) occurs to the left of a closing bracket (i.e., ), ], or }) of the exact same
 type. There are three types of matched pairs of brackets: [], {}, and ().
 
+📌 Day 34: Queue using Two Stacks
+
+Problem Statement: A queue is an abstract data type that maintains the order in which elements were added to it, allowing the oldest elements to be removed from the front
+and new elements to be added to the rear. This is called a First-In-First-Out (FIFO) data structure because the first element added to the queue (i.e., the one that has
+been waiting the longest) is always the first one to be removed.
