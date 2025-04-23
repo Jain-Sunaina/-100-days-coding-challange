@@ -199,3 +199,12 @@ type. There are three types of matched pairs of brackets: [], {}, and ().
 Problem Statement: A queue is an abstract data type that maintains the order in which elements were added to it, allowing the oldest elements to be removed from the front
 and new elements to be added to the rear. This is called a First-In-First-Out (FIFO) data structure because the first element added to the queue (i.e., the one that has
 been waiting the longest) is always the first one to be removed.
+
+📌 Day 34: Max Min
+
+Problem Statement:You will be given a list of integers, arr, and a single integer k. You must create an array of length k from elements of arr such that its unfairness is 
+minimized. Call that array arr'. Unfairness of an array is calculated as
+max(arr') - min(arr')
+Where:
+- max denotes the largest integer in arr'. 
+- min denotes the smallest integer in arr'.
