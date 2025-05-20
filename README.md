@@ -222,3 +222,8 @@ pointer to the sorting function with every new comparison strategy.
 Problem Statement: Insert element into sorted list
 Given a sorted list with an unsorted number e in the rightmost cell, can you write some simple code to insert e into the array so that it remains sorted?
 
+📌 Day 37: Quicksort 1 - Partition
+
+Problem Statement: The previous challenges covered Insertion Sort, which is a simple and intuitive sorting algorithm with a running time of . In these next few challenges,
+we're covering a divide-and-conquer algorithm called Quicksort (also known as Partition Sort).
+
