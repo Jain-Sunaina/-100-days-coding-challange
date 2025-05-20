@@ -227,3 +227,8 @@ Given a sorted list with an unsorted number e in the rightmost cell, can you wri
 Problem Statement: The previous challenges covered Insertion Sort, which is a simple and intuitive sorting algorithm with a running time of . In these next few challenges,
 we're covering a divide-and-conquer algorithm called Quicksort (also known as Partition Sort).
 
+📌 Day 38: Print the Elements of a Linked List
+
+Problem Statement: This exercise focuses on traversing a linked list. You are given a pointer to the head node of a linked list. The task is to print the data of each node,
+one per line. If the head pointer is null, indicating the list is empty, nothing should be printed.
+
