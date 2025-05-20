@@ -232,3 +232,8 @@ we're covering a divide-and-conquer algorithm called Quicksort (also known as Pa
 Problem Statement: This exercise focuses on traversing a linked list. You are given a pointer to the head node of a linked list. The task is to print the data of each node,
 one per line. If the head pointer is null, indicating the list is empty, nothing should be printed.
 
+📌 Day 39: Insert a node at the head of a linked list
+
+Problem Statement: Given a pointer to the head of a linked list, insert a new node before the head. The next value in the new node should point to head and the data value
+should be replaced with a given value. Return a reference to the new head of the list. The head pointer given may be null meaning that the initial list is empty.
+
