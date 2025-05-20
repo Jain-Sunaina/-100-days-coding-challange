@@ -216,3 +216,9 @@ sorting function with a flag indicating the type of comparison strategy can be w
 comparison strategy.
 A better implementation would be to write a sorting function that accepts a pointer to the function that compares each pair of strings. Doing this will mean only passing a 
 pointer to the sorting function with every new comparison strategy.
+
+📌 Day 36: Insertion Sort - Part 1
+
+Problem Statement: Insert element into sorted list
+Given a sorted list with an unsorted number e in the rightmost cell, can you write some simple code to insert e into the array so that it remains sorted?
+
