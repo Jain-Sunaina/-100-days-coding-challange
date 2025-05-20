@@ -202,9 +202,17 @@ been waiting the longest) is always the first one to be removed.
 
 📌 Day 34: Max Min
 
-Problem Statement:You will be given a list of integers, arr, and a single integer k. You must create an array of length k from elements of arr such that its unfairness is 
+Problem Statement: You will be given a list of integers, arr, and a single integer k. You must create an array of length k from elements of arr such that its unfairness is 
 minimized. Call that array arr'. Unfairness of an array is calculated as
 max(arr') - min(arr')
 Where:
 - max denotes the largest integer in arr'. 
 - min denotes the smallest integer in arr'.
+
+📌 Day 35: Sorting Array of Strings
+
+Problem Statement: To sort a given array of strings into lexicographically increasing order or into an order in which the string with the lowest length appears first, a
+sorting function with a flag indicating the type of comparison strategy can be written. The disadvantage with doing so is having to rewrite the function for every new 
+comparison strategy.
+A better implementation would be to write a sorting function that accepts a pointer to the function that compares each pair of strings. Doing this will mean only passing a 
+pointer to the sorting function with every new comparison strategy.
