@@ -249,3 +249,9 @@ Problem Statement: Given a pointer to the head node of a linked list and an inte
 data attribute, insert this node at the desired position, and return the head node.
 A position of 0 indicates the head, a position of 1 indicates one node away from the head, and so on. The head pointer given may be null, meaning that the initial list is
 empty.
+
+📌 Day 42: Delete a Node
+
+Problem Statement: Delete the node at a given position in a linked list and return a reference to the head node. The head is at position 0. The list may be empty after you
+delete the node. In that case, return a null value.
+
