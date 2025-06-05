@@ -237,3 +237,9 @@ one per line. If the head pointer is null, indicating the list is empty, nothing
 Problem Statement: Given a pointer to the head of a linked list, insert a new node before the head. The next value in the new node should point to head and the data value
 should be replaced with a given value. Return a reference to the new head of the list. The head pointer given may be null meaning that the initial list is empty.
 
+📌 Day 40: Insert a Node at the Tail of a Linked List
+
+Problem Statement: You are given the pointer to the head node of a linked list and an integer to add to the list. Create a new node with the given integer. Insert this node
+at the tail of the linked list and return the head node of the linked list formed after inserting this new node. The given head pointer may be null, meaning that the
+initial list is empty.
+
